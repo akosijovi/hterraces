@@ -1,0 +1,20 @@
+# Empty CSS file for your own CSS
+.item {
+	overflow: hidden; 
+    width: 410px;
+    max-height: 230px;
+    max-height: auto;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+}
+
+.item .img{
+    width: 410px;
+    height:230px;
+}
+
+.item .img2{
+    width: 720px;
+    height:480px;
+}
