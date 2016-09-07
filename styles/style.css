@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+/* START SCROLLER */
+
+    #scroller {
+        position: relative;
+    }
+    #scroller .innerScrollArea {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    #scroller ul {
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+    #scroller li {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        position: absolute;
+    }
+	
+/* END SCROLLER */
+
+
+#headlines {
+  list-style: none;
+  padding-left: 0;
+  width: 75%;
+}
+ 
+#headlines li {
+  margin-bottom: 2em;
+  overflow: hidden;
+}
+ 
+.pubDate {
+  font-size:11px;
+  color: #eb6841;
+  text-transform: uppercase;
+}
+ 
+#headlines .pubDate {
+  display: inline-block;
+  width: 100px;
+  font-size: .5em;
+  vertical-align: middle;
+}
+ 
+#headlines.archive .pubDate {
+  width: 130px;
+}
+ 
+#headlines .articleImageThumb {
+  width: 120px;
+  float: left;
+  margin: 4px 20px 0 0;
+  border: 1px solid #00a0b0;
+}
+ 
+.summary {
+  padding-left: 100px;
+}
+ 
+#headlines.archive .summary {
+  padding-left: 130px;
+}
+
+
+ /* Article pages */
+ 
+#articleImageFullsize {
+  width: 250px;
+  float: left;
+  margin: 4px 20px 10px 0;
+  border: 1px solid #00a0b0;
+}
+ 
+
+ 
+ 
+ /* Status and error boxes */
+ 
+.statusMessage, .errorMessage {
+  font-size: .8em;
+  padding: .5em;
+  margin: 2em 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+}
+ 
+.statusMessage {
+  background-color: #2b2;
+  border: 1px solid #080;
+  color: #fff;
+}
+ 
+.errorMessage {
+  background-color: #f22;
+  border: 1px solid #800;
+  color: #fff;
+}

@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+body{
+	background-image: url(../images/amanda-bg.png);
+	color:#FFF;
+	height:100%;
+	margin:0;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+#header{
+	height:146px;	
+	margin-bottom:50px;
+}
+
+#header .logo{
+	background-image: url(../images/logo.png);
+	background-position: center center;
+	height: 206px;
+	background-repeat: no-repeat;
+}
+
+#menuwrapper{
+	height:100px;
+}
+#menu{
+	background-color: #26211e;
+	height: 39px;
+	margin-bottom:25x;
+}
+#menu .text{
+	background-color: #26221f;
+	padding: 9px;
+	text-align: center;	
+}
+#menu .text a{
+	color: #CCC;	
+	text-decoration: none;
+}
+#menu .text a:visited{
+	color: #CCC;	
+	text-decoration: none;
+}
+#menu .text a:hover{
+	color: #FFF;	
+	text-decoration: none;
+}
+
+#filler{
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-bottom: 45px;
+}
+#filler .body{
+	padding:10px;
+	background-color: #322722;
+	background-position: center center;
+	position: relative;
+}
+
+/*
+#footer{
+	color: #CCC;
+	text-align: right;	
+}*/
+
+#footer {
+	padding-top: 15px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: #736b69;
+	color: #000;
+	text-align: right;
+	vertical-align: bottom;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-right:15px;
+}
+
+<style type="text/css">
+    #scroller {
+        position: relative;
+    }
+    #scroller .innerScrollArea {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    #scroller ul {
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+    #scroller li {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        position: absolute;
+    }
+</style>

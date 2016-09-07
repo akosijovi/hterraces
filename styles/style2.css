@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+body{
+	background-image: url(../images/amanda-bg.png);
+	color:#FFF;
+	height:100%;
+	margin:0;
+}
+
+#wrapper{
+	
+}

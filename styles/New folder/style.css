@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+body{
+	background-image: url(../images/amanda-bg.png);
+	color:#FFF;
+	height:100%;
+	margin:0;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+#header{
+	height:146px;	
+	margin-bottom:50px;
+}
+
+#header .logo{
+	background-image: url(../images/logo.png);
+	background-position: center center;
+	height: 206px;
+	background-repeat: no-repeat;
+}
+
+#menuwrapper{
+}
+#menu{
+	background-color: #26211e;
+	height: 39px;
+	margin-bottom:25x;
+	width: 100%;
+	text-align: center;
+}
+#menu .text{
+	background-color: #26221f;
+	padding-top:8px;
+}
+#menu .text a{
+	color: #CCC;	
+	text-decoration: none;
+	padding-left:5%;
+	padding-right:5%;
+}
+#menu .text a:visited{
+	color: #CCC;	
+	text-decoration: none;
+}
+#menu .text a:hover{
+	color: #FFF;	
+	text-decoration: none;
+}
+
+#filler{
+	margin-top:25px;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-bottom: 45px;
+}
+#filler .body{
+	padding:10px;
+	background-color: #322722;
+	background-position: center center;
+	position: relative;
+}
+
+
+form {
+  margin: 20px auto;
+  padding: 40px 20px;
+  overflow: auto;
+  background: #CCC;
+  border: 1px solid #000;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;  
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+}
+
+form ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+form ul li {
+  margin: .9em 0 0 0;
+  padding: 0;
+}
+ 
+form * {
+  line-height: 1em;
+}
+
+input, select, textarea {
+  display: block;
+  margin: 0;
+  padding: .4em;
+  width: 80%;
+}
+ 
+input, textarea, .date {
+  border: 1px solid #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;    
+  border-radius: 5px;
+  background: #fff;
+}
+ 
+input {
+  font-size: .9em;
+  	margin-left:5%;
+	margin-right:5%;
+}
+ 
+select {
+  padding: 0;
+  margin-bottom: 2.5em;
+  position: relative;
+  top: .7em;
+}
+ 
+textarea {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: .9em;
+  height: 5em;
+  line-height: 1.5em;
+  margin-left:5%;
+	margin-right:5%;
+}
+ 
+textarea#content {
+  font-family: "Courier New", courier, fixed;
+}
+
+form *:focus {
+  border: 1px solid #000;
+  outline: none;
+}
+
+input:valid, textarea:valid {
+  background: #efe;
+}
+ 
+.buttons {
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+ 
+input[type="submit"] {
+  display: inline;
+  margin: 0 20px;
+  width: 12em;
+  padding: 10px;
+  border: 1px solid #000;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;  
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  color: #fff;
+  background: #999;
+  font-weight: bold;
+  -webkit-appearance: none;
+}
+ 
+input[type="submit"]:hover, input[type="submit"]:active {
+  cursor: pointer;
+  background: #999;
+  color: #fff;
+}
+ 
+input[type="submit"]:active {
+  background: #999;
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+}
+
+#footer {
+	color:#CCC;
+  margin-top: 40px;
+  padding: 20px 0 0 0;
+  font-size: .8em;
+  text-align:center
+}
+
+<style type="text/css">
+    #scroller {
+        position: relative;
+    }
+    #scroller .innerScrollArea {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    #scroller ul {
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+    #scroller li {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        position: absolute;
+    }
+</style>
